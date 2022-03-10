@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-sample",
+  "version": "1.0.0",
+  "description": "TestCafe API Sample",
+  "main": "test.js",
+  "scripts": {
+    "test": "testcafe 'lambdatest:Chrome@91.0:Windows 10' test.js && testcafe 'lambdatest:Safari@14.0:MacOS Big sur' 'TestLambda.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaTest/testcafe-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaTest/testcafe-sample/issues"
+  },
+  "homepage": "https://github.com/LambdaTest/testcafe-sample#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "1.18.4"
+  },
+  "dependencies": {
+    "@lambdatest/node-tunnel": "3.0.5",
+    "testcafe-browser-provider-lambdatest": "^2.0.18"
+  }
+}

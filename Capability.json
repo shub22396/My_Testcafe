@@ -1,0 +1,19 @@
+{
+    "Chrome@91.0:Windows 10": {
+        "network": false,
+        "visual": false,
+        "timezone": "UTC+11:00",
+        "goog:chromeOptions":{
+                "args":["--user-agent=prod"]
+
+        }
+    },
+    "Safari@14.0:MacOS Big sur":{
+        "enableCustomTranslation": true,
+        "visual": false
+       
+      }
+
+
+
+}
